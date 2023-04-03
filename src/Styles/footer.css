@@ -1,0 +1,39 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    height: 120px;
+    background-color: #24bdf0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* background-color: #24bdf0; */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 250px;
+
+  }
+  
+  .grid-item {
+    background-color: #24bdf0;
+    padding: 1px;
+    color: #ebf9fd;
+    /* text-align: center; */
+  }
+  
+/* .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #24bdf0;
+    width: 100%;
+    text-align: center;
+    
+  } */
+  
