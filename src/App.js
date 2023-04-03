@@ -18,7 +18,7 @@ function App() {
       {/* <ParentBook/> */}
       {/* <Home/> */}
       
-      <Footer/>
+      {/* <Footer/> */}
 
        </div>
     </React.Fragment>
