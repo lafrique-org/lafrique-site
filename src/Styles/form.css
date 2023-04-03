@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* justify-content: center; */
+    margin: 50px auto;
+    width: 50%;
+    max-width: 400px;
+  }
+  
+  /* label {
+    margin-top: 1rem;
+  } */
+  input,
+  textarea,select,Select {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #f1eeee;
+  }
+  
+  button[type="submit"] {
+    margin-top: 1rem;
+    background-color: #adcc00;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005fa3;
+  }
